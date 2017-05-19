@@ -1,0 +1,88 @@
+{
+	"title1": "Act I",
+	"title2": "Act II",
+	"title3": "Act III",
+	"text1": [
+		"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+	],
+	"text2": [
+		"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+		"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+	],
+	"text3": [
+		"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+	],
+	"board": [
+		{
+			"title": "Demo 1",
+			"card": [
+				{
+					"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+				},
+				{
+					"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+				}
+			]
+		},
+		{
+			"card": [
+				{
+					"text": "2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+				}
+			],
+			"title": "Demo 2"
+		},
+		{
+			"title": "Demo 3",
+			"card": [
+				{
+					"text": "3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+				}
+			]
+		},
+		{
+			"title": "Still to do",
+			"card": [
+				{
+					"text": "- Colour coding boards/cards (and maybe other board-/card-specific styling? Eg automatic strikeouts for all cards on the \"done\" board.)"
+				},
+				{
+					"text": "- Overall styling needs a few more tweaks (notably mv-add/mv-status don't quite fit in + the current colour scheme is boring) but that's pure style instead of functional style so comes after colour-coding."
+				},
+				{
+					"text": "- There's a bug where an empty card still gets counted but I don't think I care enough to fix that and I'm not even sure if it's a me-bug or a Mavo-bug or non-bug (empty card is still card after all) anyway."
+				},
+				{
+					"text": "- Can sometimes still technically edit one of the boards/some of the cards in it even after turning editing off, usually the last board/cards to have been edited. Also not sure if this is a me-bug or Mavo-bug but tbh suspect Mavo. Can't reliably replicate yet either way."
+				}
+			]
+		},
+		{
+			"title": "Done",
+			"card": [
+				{
+					"text": "- Switch to non-local storage (tested with Dropbox and GitHub)"
+				},
+				{
+					"text": "- ~~Add Markdown support~~"
+				}
+			]
+		},
+		{
+			"title": "About Sortboards",
+			"card": [
+				{
+					"text": "[Mavo](https://mavo.io/) exists, I wanted to try it out, Sortboards happened. (Opinion: not gonna be writing massive apps in Mavo but it's good for what it's meant for, ie turning a  HTML/CSS page into an editable/updateable one without extra backend work.)"
+				},
+				{
+					"text": "Meant to be like rearranging index cards on a corkboard. Except without the corkboard, and with subboards to organize your cards."
+				},
+				{
+					"text": "HTML/CSS/Bootstrap/Mavo put together by Keelan"
+				}
+			]
+		}
+	]
+}

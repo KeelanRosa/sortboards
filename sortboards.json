@@ -49,7 +49,7 @@
 					"text": "- Colour coding boards/cards (and maybe other board-/card-specific styling? Eg automatic strikeouts for all cards on the \"done\" board.)"
 				},
 				{
-					"text": "- Overall styling needs a few more tweaks (notably mv-add/mv-status don't quite fit in + the current colour scheme is boring) but that's pure style instead of functional style so comes after colour-coding."
+					"text": "- Overall styling needs a few more tweaks (notably mv-add/mv-status don't quite fit in + the current colour scheme is boring) but that's pure style instead of functional style so comes after colour-coding. Probably also worth clearing out the bootstrap.css of all the unnecessary default stuff."
 				},
 				{
 					"text": "- There's a bug where an empty card still gets counted but I don't think I care enough to fix that and I'm not even sure if it's a me-bug or a Mavo-bug or non-bug (empty card is still card after all) anyway."

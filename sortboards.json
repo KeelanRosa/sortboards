@@ -77,7 +77,7 @@
 			"title": "About Sortboards",
 			"card": [
 				{
-					"text": "[Mavo](https://mavo.io/) exists, I wanted to try it out, Sortboards happened. (Opinion: not gonna be writing massive apps in Mavo but it's good for what it's meant for, ie turning a  HTML/CSS page into an editable/updateable one without extra backend work.)"
+					"text": "[Mavo](https://mavo.io/) exists, I wanted to try it out, [Sortboards](https://github.com/KeelanRosa/sortboards) happened. (Opinion: not gonna be writing massive apps in Mavo but it's good for what it's meant for, ie turning a  HTML/CSS page into an editable/updateable one without extra backend work.)"
 				},
 				{
 					"text": "Meant to be like rearranging index cards on a corkboard. Except without the corkboard, and with subboards to organize your cards."
